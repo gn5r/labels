@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "private": "true",
   "license": "MIT",
+  "scripts": {
+    "build": "ts-node src/index.ts",
+    "dry-run": "bash scripts/dry-run.sh",
+    "regist": "bash scripts/regist.sh"
+  },
   "dependencies": {
     "@azu/github-label-setup": "^4.1.0"
   },
